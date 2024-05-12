@@ -1,0 +1,21 @@
+img.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.emoji-container {
+    position: relative;
+}
+
+.emoji-container img:not(:first-child) {
+    display: none; 
+}
+
+img#layerE {
+    position: absolute;
+    top: 200px; 
+    left: 0;
+	width: 50;
+	height: 60;
+}

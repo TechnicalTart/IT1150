@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Maker</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body style="background-color:;">
+
+<h1>Silly Face Maker</h1>
+<h2>What face can you make?</h2>
+<p>Click the buttons to change the face.</p>
+
+<div class="container">
+    <div class="options">
+        <h3>Select Head:</h3>
+        <button class="head-option" onclick="selectHead('layerA')">Blue Head</button>
+        <button class="head-option" onclick="selectHead('layerB')">Green Head</button>
+    </div>
+
+    <div class="options">
+        <h3>Select Eyes:</h3>
+        <button class="eye-option" onclick="selectEyes('layerC')">Cold Eyes</button>
+        <button class="eye-option" onclick="selectEyes('layerD')">Evil Eyes</button>
+    </div>
+
+    <div class="options">
+        <h3>Select Mouth:</h3>
+        <button class="mouth-option" onclick="selectMouth('layerE')">Normal Lipstick Teeth</button>
+        <button class="mouth-option" onclick="selectMouth('layerF')">Normal Teeth</button>
+    </div>
+
+    <div class="emoji-container">
+        <img id="layerA" class="layer" src="BlueHeadCubes.png" alt="blueHead">
+        <img id="layerB" class="layer" src="GreenCubeHead.png" alt="greenHead">
+        <img id="layerC" class="layer" src="ColdEyes.png" alt="coldEyes">
+        <img id="layerD" class="layer" src="EvilEyes.png" alt="evilEyes">
+        <img id="layerE" class="layer" src="NormalLipstickTeeth.png" alt="normalLipstickTeeth">
+        <img id="layerF" class="layer" src="Normalteeth.png" alt="normalTeeth">
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
